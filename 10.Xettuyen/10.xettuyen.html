@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="10.xettuyen.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="title">Thông tin cá nhân của ứng viên</div>
+        <form action="10.xettuyen.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Họ và Tên của bạn</span>
+                    <input type="text" name="name" placeholder="Ghi Tên của Bạn" required> 
+                    <!-- name -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Cân nặng của bạn</span>
+                    <input class="text" name="cannang" placeholder="Can nang cua ban" required>
+                    <!-- text -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Chiều cao của bạn</span>
+                    <input type="text" name="chieucao" placeholder="Chieu cao cua ban" required>
+                    <!-- phonenumber -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Giới Tính</span>
+                        <select class="gender" name="gender">  
+                            <option >--Lựa Chọn Giới Tính--</option>                                             
+                            <option >Male</option>
+                            <option >Female</option>
+                            <option >Other</option>
+                        </select>
+                        <!-- gender -->
+                </div>
+                <div class="button">
+                    <input type="submit" value="Lưu">
+                </div> 
+                <div class="button">
+                    <input type="reset" value="Reset">
+                </div>     
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

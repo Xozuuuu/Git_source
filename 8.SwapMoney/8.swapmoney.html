@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="8.swapmoney.css">
+</head>
+<body>
+    <div class="container">
+        <div class="swap-money">
+            <h1>Đổi tiền </h1>
+        </div>
+        <form action="8.swapmoney.php" method="post">
+            <h2>Số tiền bạn muốn đổi :</h2>
+            <input class="input-number" type="text" name="swapmoney" placeholder="Nhập số lượng"><br>
+            <h3>Lựa chọn đồng tiền bạn muốn đổi :</h3>
+            <select class="select" name="select">  
+                <option >--- Lựa chọn đồng tiền ---</option>                                             
+                <option >USD</option>
+                <option >AUD</option>
+                <option >JPY</option>
+                <option >EUR</option>
+            </select>
+            <br><input class="submit" type="submit">
+        </form>
+    </div>
+</body>
+</html>

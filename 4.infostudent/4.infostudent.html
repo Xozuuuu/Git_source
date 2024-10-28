@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4.infostudent.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Thông Tin Cá Nhân Của Sinh Viên</div>
+        <form action="4.infostudent.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">STT</span>
+                    <input type="text" name="numberlist" placeholder="So thu tu" required> 
+                    <!-- name -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Họ và Tên của Bạn</span>
+                    <input type="text" name="name" placeholder="Ghi Tên của Bạn" required> 
+                    <!-- name -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Ngày Sinh của Bạn</span>
+                    <input class="date" name="date" type="date" required>
+                    <!-- date -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Số Điện Thoại </span>
+                    <input type="text" name="phonenumber" placeholder="Số Điện Thoại của Bạn" required>
+                    <!-- phonenumber -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" name="email" placeholder="xyz@gmail.com" required>
+                    <!-- email -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Nơi ở</span>
+                    <input type="text" name="address" placeholder="Nơi ở Hiện Tại" required>
+                    <!-- address -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Giới Tính</span>
+                        <select class="gender" name="gender">  
+                            <option >--Lựa Chọn Giới Tính--</option>                                             
+                            <option >Male</option>
+                            <option >Female</option>
+                            <option >Other</option>
+                        </select>
+                        <!-- gender -->
+                </div>
+                <div class="button">
+                    <input type="submit" value="Lưu">
+                </div> 
+                <div class="button">
+                    <input type="reset" value="Reset">
+                </div>     
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<button onclick="appendToDisplay()"></button>
+<!-- <body>
+    <form action="4.infostudent.php" method="post">
+        <h2>Hãy Nhập Thông Tin Của Bạn</h2>
+        <label for="Name">Tên của bạn</label><br>
+        <input type="text" name="text" placeholder="Nhập vào tên của bạn"><br>
+        <label for="Date">Ngày sinh của bạn</label><br>
+        <input type="date" name="date" placeholder="ngày sinh của bạn"><br>
+        <label for="Email">Email của bạn</label><br>
+        <input type="email" name="email" placeholder="Email của bạn"><br>
+        <label for="Text">Nơi ở</label><br>
+        <input type="text" name="text" placeholder="Nơi ở của bạn"><br>
+        <label for="Phone">Số điện thoại</label><br>
+        <input type="tel" name="tel" placeholder="Số điện thoại của bạn"><br>
+        <label for="Gender">Giới tính của bạn</label><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">      
+        <label for="html">Nam</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Nữ</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Other</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</body> -->
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="9.diemtrungtuyen.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Nhập Điểm Sinh Viên</div>
+        <form action="9.diemtrungtuyen.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nhập Điểm Môn Toán</span>
+                    <input type="text" name="diemA" placeholder="Nhập Điểm Toán của Bạn" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nhập Điểm Môn Lý</span>
+                    <input class="text" name="diemB" placeholder="Nhập Điểm Lý của Bạn" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nhập Điểm Môn Hóa </span>
+                    <input type="text" name="diemC" placeholder="Nhập Điểm Hóa của Bạn" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Lua chon nghanh</span>
+                    <select name="luachon">
+                        <option>-- Lựa chọn chuyên nghành --</option>
+                        <option>Công Nghệ Thông Tin</option>
+                        <option>Chất Lượng Cao</option>
+                        <option>Khoa Học Dữ Liệu</option>
+                        <option>Địa Chất</option>
+                        <option>Môi Trường</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Tính Điểm">
+                </div> 
+                <div class="button">
+                    <input type="reset" value="Nhập Lại Điểm của Bạn">
+                </div>     
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

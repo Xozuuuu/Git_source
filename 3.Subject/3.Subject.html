@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 97.5vh;
+            align-items: center;
+            justify-content: center;
+            background :linear-gradient(135deg, #d6c5cc ,#6bb7ff );
+            
+        }
+        input, button {
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        form {
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            padding : 20px;
+            background-color: whitesmoke;
+            backdrop-filter: blur(20px);
+            box-shadow:-10px 20px 50px rgb(34, 57, 119);
+            
+            /* opacity: 50%; */
+        }
+        .submit:hover {
+            background-color :skyblue;
+            border-radius: 5px;
+        }
+        .reset:hover {
+            background-color :skyblue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="3.Subject.php" method="post">
+        <h1>Nhập Tên Môn Học</h1>
+        <input type="text" name="tenmonhoc" placeholder="Nhập tên môn học">
+        <input class="submit" type="submit" name="back-input">
+        <input class="reset" type="reset" >
+    </form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49);
+}
+.container {
+    max-width: 300px;
+    width: 100%;
+    background: #fff;
+    padding : 25px 30px;
+    border-radius: 10px;
+    box-shadow:-10px 20px 50px #172420;
+}
+.container .title {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 90px;
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49);
+}
+form .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 -50px);
+}
+.user-details .input-box input {
+    padding: 0 50px 0 0;
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 800;
+    margin-bottom:5px;
+}
+form .user-details .button {
+    width: 90%;
+    width: 100px;
+    margin-top:20px; 
+    margin-bottom: 10px;
+    
+}
+form .user-details .button input {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #bbd2c5, #536976, #292e49);
+    color:ivory;
+    font-size: 17px;
+    margin-right: 100px;
+    
+}
+form .button input:hover {
+    background: linear-gradient(to right, #292e49, #536976, #bbd2c5);
+}
+form .user-details P {
+    font-size: xx-small;
+    left :0;
+    margin-top: 20px;
+}
+
+.user-details .input-box input {
+    height:40px;
+    border-radius: 5px;
+    padding-left:15px;
+}
+.container form .user-details > .select-pick {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+}
